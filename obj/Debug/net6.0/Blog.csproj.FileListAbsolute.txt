@@ -56,6 +56,7 @@ C:\dev\Blog\obj\Debug\net6.0\Blog.AssemblyInfoInputs.cache
 C:\dev\Blog\obj\Debug\net6.0\Blog.AssemblyInfo.cs
 C:\dev\Blog\obj\Debug\net6.0\Blog.csproj.CoreCompileInputs.cache
 C:\dev\Blog\obj\Debug\net6.0\Blog.MvcApplicationPartsAssemblyInfo.cache
+C:\dev\Blog\obj\Debug\net6.0\Blog.sourcelink.json
 C:\dev\Blog\obj\Debug\net6.0\scopedcss\bundle\Blog.styles.css
 C:\dev\Blog\obj\Debug\net6.0\staticwebassets.build.json
 C:\dev\Blog\obj\Debug\net6.0\staticwebassets.development.json

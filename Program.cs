@@ -1,12 +1,15 @@
 using Blog.Data;
-
+using Microsoft.EntityFrameworkCore;
 
 //Application
 var builder = WebApplication.CreateBuilder(args);
 
 // Services
 builder.Services.AddControllers();
-builder.Services.AddDbContext<BlogDataContext>();
+
+// Dependency Inject => Db
+builder.Services.AddDbContext<BlogDataContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 //Build
 var app = builder.Build();
 
