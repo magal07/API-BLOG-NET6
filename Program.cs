@@ -5,7 +5,9 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Services
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .ConfigureApiBehaviorOptions(options =>
+        options.SuppressModelStateInvalidFilter = true);
 
 // Dependency Inject => Db
 builder.Services.AddDbContext<BlogDataContext>(options =>

@@ -6,6 +6,7 @@ namespace Blog.Data.Mappings
 {
     public class CategoryMap : IEntityTypeConfiguration<Category>
     {
+        #region Neste ponto, passamos os parâmetro e configuramos como a migration do EF se comportará.
         public void Configure(EntityTypeBuilder<Category> builder)
         {
             // Tabela
@@ -37,5 +38,6 @@ namespace Blog.Data.Mappings
                 .HasIndex(x => x.Slug, "IX_Category_Slug")
                 .IsUnique();
         }
+        #endregion
     }
 }

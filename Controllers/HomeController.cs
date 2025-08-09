@@ -6,10 +6,11 @@ namespace Blog.Data.Controllers;
 [Route("")]
 public class HomeController : ControllerBase
 {
-    // verificando se a rota tá ok, possivelmente quem for verificar será através do cmd no comando ping
+    #region Verificando healt-life da rota. Pode-se verificar será através do cmd no comando ping + a rota ou Postman/Insomnia
     [HttpGet("")]
     public IActionResult Get()
     {
         return Ok();
     }
+    #endregion
 }
