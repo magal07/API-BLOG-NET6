@@ -1,0 +1,59 @@
+# Build e publicação
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.apphost.exe
+
+# Configurações do usuário
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs e temporários
+*.log
+*.tmp
+*.bak
+
+# Banco de dados local
+*.mdf
+*.ldf
+
+# Arquivos de configuração sensíveis
+appsettings.json
+appsettings.*.json
+
+# Pacotes NuGet
+*.nupkg
+.nuget/
+packages/
+
+# Ferramentas EF Core
+Migrations/
+
+# Sistema operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.idea/
+*.sln.iml
+
+# Dotnet workload cache
+.dotnet/
+
+# Rider
+*.DotSettings.user
+
+# Testes
+TestResults/
+coverage/
+
+# Outros
+*.db
+*.sqlite
